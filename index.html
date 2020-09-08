@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Blackjack</title>
 </head>
 <body>
     
+    <header class="titulo">
+        Blackjack
+    </header>
+
+    <div class="row mt-2">
+        <div class="col text-center">
+
+            <button class="btn btn-danger">Nuevo juego</button>
+            <button class="btn btn-primary">Pedir carta</button>
+            <button class="btn btn-primary">Detener</button>
+
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas">
+                <img class="carta" src="assets/cartas/10C.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas">
+                <img class="carta" src="assets/cartas/10C.png">
+            </div>
+
+        </div>
+    </div>
 
     <script src="assets/js/juego.js"></script>
 </body>
